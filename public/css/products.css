@@ -1,0 +1,188 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 15px rgb(0 0 0 / 0.1);
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #5a67d8;
+  color: white;
+}
+
+thead th {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+tbody tr:hover {
+  background-color: #f1f5ff;
+}
+
+tbody td {
+  padding: 12px 15px;
+  vertical-align: middle;
+}
+
+.price {
+  font-weight: 600;
+  color: #1f7a1f;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  background-color: #5a67d8;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #434190;
+}
+
+button.delete-btn {
+  background-color: #e53e3e;
+}
+
+button.delete-btn:hover {
+  background-color: #9b2c2c;
+}
+
+form {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 15px rgb(0 0 0 / 0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1.8px solid #ddd;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: #5a67d8;
+}
+
+form button {
+  background-color: #48bb78;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #2f855a;
+}
+
+/* Modal styles improved */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  backdrop-filter: blur(2px);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 8% auto;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  max-width: 420px;
+  position: relative;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  font-size: 0.95rem;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  color: #2a2a72;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.modal-content label {
+  display: block;
+  margin: 0.8rem 0 0.3rem 0;
+  font-weight: 600;
+}
+
+.modal-content input, .modal-content textarea {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  border: 1.4px solid #ccc;
+  font-size: 1rem;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.modal-content input:focus, .modal-content textarea:focus {
+  border-color: #5a67d8;
+  outline: none;
+}
+
+.modal-content textarea {
+  min-height: 70px;
+}
+
+.modal-content button {
+  margin-top: 1.2rem;
+  width: 100%;
+  padding: 0.55rem 0;
+  font-size: 1rem;
+  border-radius: 7px;
+}
+
+#editModalTitle {
+  text-align: center;
+}

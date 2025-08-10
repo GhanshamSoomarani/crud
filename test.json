@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Apple Watch",
+    "description": "A sleek smartwatch with fitness tracking and notification features",
+    "price": 249
+  },
+  {
+    "name": "Samsung Galaxy Phone",
+    "description": "A high-end smartphone with advanced camera and AI capabilities",
+    "price": 799
+  },
+  {
+    "name": "Nike Running Shoes",
+    "description": "Lightweight and breathable shoes designed for performance and comfort",
+    "price": 129
+  },
+  {
+    "name": "Sony Wireless Headphones",
+    "description": "High-quality audio and long battery life for immersive listening",
+    "price": 199
+  },
+  {
+    "name": "Canon EOS Camera",
+    "description": "A professional-grade DSLR camera with advanced features and image quality",
+    "price": 999
+  }
+]
